@@ -52,7 +52,7 @@ public class FacMap extends JavaPlugin {
         int update_interval = config.getInt("scoreboard.refresh-rate");
         Bukkit.getScheduler().runTaskTimer(this, () -> {
             for (Player player : Bukkit.getOnlinePlayers()) {
-                if(player.getWorld().getName().equalsIgnoreCase(config.getString("aktif_dunya"))) {
+                if(player.getWorld().getName().equalsIgnoreCase(config.getString("aktif_edilecek_dunya"))) {
                     CustomScoreboard.updateScoreboard(player, true);
                 }
             }

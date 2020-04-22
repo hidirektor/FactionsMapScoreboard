@@ -1,5 +1,5 @@
 default-state: true
-aktif_dunya: 'Orman'
+aktif_edilecek_dunya: 'Orman'
 
 komutlar:
   komut-bilgi-1: '&c&l&m------------&8[&eKlan Haritası&8]&c&l&m------------'
