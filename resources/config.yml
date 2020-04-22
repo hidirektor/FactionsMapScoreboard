@@ -1,0 +1,56 @@
+default-state: true
+aktif_dunyalar:
+  - 'Orman'
+
+komutlar:
+  komut-bilgi-1: '&c&l&m------------&8[&eKlan Haritası&8]&c&l&m------------'
+  komut-bilgi-2: '&r   '
+  komut-bilgi-3: '&6/infmap info &a&l> &eKlan Haritası Renklendirmesi Hakkında Bilgi Verir!'
+  komut-bilgi-4: '&6/infmap toggle &a&l> &eKlan Haritasını Kapatır!'
+  komut-bilgi-5: '&6/infmap reload &a&l> &eEklentiyi Yeniler'
+  komut-bilgi-6: '&r   '
+  komut-bilgi-7: '&c&l&m------------&8[&eKlan Haritası&8]&c&l&m------------'
+
+messages:
+  reload: "&e&lKlan Haritası &7> &aEklenti Başarıyla Yenilendi."
+  scoreboard:
+    aktifedildi: "&e&lKlan Haritası &7> &aKlan Haritası Aktif Edildi"
+    kapatildi: "&e&lKlan Haritası &7> &aKlan Haritası Kapatıldı."
+  map:
+    anasatir: "&c&l&m------------&8[&eKlan Haritası&8]&c&l&m------------"
+    sen: "&e&l█ &7&l» &eSen"
+    guvenlialan: "&6&l█ &7&l» &6Güvenli Alan"
+    savasalani: "&c&l█ &7&l» &cSavaş Alanı"
+    bosarazi: "&8&l█ &7&l» &8Boş Arazi"
+    klanarazisi: "&a&l█ &7&l» &aKlanının Arazisi"
+    dostarazi: "&2&l█ &7&l» &2Dost Arazi"
+    dusmanarazi: "&4&l█ &7&l» &4Düşman Arazi"
+    tarafsizarazi: "&f&l█ &7&l» &fTarafsız Arazi"
+    ateskesarazi: "&b&l█ &7&l» &bAteşkes Arazi"
+map-config:
+  wilderness: "8"
+  safezone: "6"
+  warzone: "c"
+  ally: "2"
+  enemy: "4"
+  neutral: "f"
+  truce: "b"
+  player: "a"
+  you: "e"
+
+scoreboard:
+  refresh-rate: 5
+  title: "&e&lKlan Haritası"
+  lines:
+    - "%faction-map|9,7%"
+#    - "&e&l█ &7&l» &eSen"
+    - "&6&l█ &7&l» &6Güvenli Alan"
+    - "&c&l█ &7&l» &cSavaş Alanı"
+    - "&8&l█ &7&l» &8Boş Arazi"
+    - "&a&l█ &7&l» &aKlanının Arazisi"
+    - "&2&l█ &7&l» &2Dost Arazi"
+    - "&4&l█ &7&l» &4Düşman Arazi"
+    - "&f&l█ &7&l» &fTarafsız Arazi"
+    - "&b&l█ &7&l» &bAteşkes Arazi"
+
+version: 2
