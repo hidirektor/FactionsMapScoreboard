@@ -44,13 +44,13 @@ public class FactionScoreboard extends CustomScoreboard {
                             e.printStackTrace();
                         }
                     } else {
-                        for (String mapEntry : mapCache) addLine(mapEntry);
+                        for (String mapEntry : mapCache) addLine("   " + mapEntry);
                     }
                     continue;
                 }
                 if (FacMap.pha) s = PlaceholderAPI.replace(p, s);
                 if (FacMap.mvdw) s = MvdwPlaceholder.replace(p, s);
-                addLine(s);
+                addLine("   " + s);
             }
     }
 }

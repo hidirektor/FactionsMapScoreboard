@@ -25,8 +25,10 @@ public class FactionMapListener implements Listener {
         }
 
         if (p.getWorld().getName().equalsIgnoreCase(FacMap.config.getString("aktif_edilecek_dunya"))) {
-            CustomScoreboard.updateScoreboard(e.getPlayer(), true);
+            //CustomScoreboard.updateScoreboard(e.getPlayer(), true);
             CustomScoreboard.setScoreboard(e.getPlayer(), new FactionScoreboard(e.getPlayer()), true);
+        } else {
+            CustomScoreboard.removeScoreboard(p);
         }
     }
 
@@ -34,8 +36,10 @@ public class FactionMapListener implements Listener {
     public void onPlayerChangedWorld(PlayerChangedWorldEvent e) {
         Player p = e.getPlayer();
         if(p.getWorld().getName().equalsIgnoreCase(FacMap.config.getString("aktif_edilecek_dunya"))) {
-            CustomScoreboard.updateScoreboard(e.getPlayer(), true);
+            //CustomScoreboard.updateScoreboard(e.getPlayer(), true);
             CustomScoreboard.setScoreboard(e.getPlayer(), new FactionScoreboard(e.getPlayer()), true);
+        } else {
+            CustomScoreboard.removeScoreboard(p);
         }
     }
 
