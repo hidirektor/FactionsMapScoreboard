@@ -55,7 +55,8 @@ public class FacMap extends JavaPlugin {
                 if(player.getWorld().getName().equalsIgnoreCase(config.getString("aktif_edilecek_dunya"))) {
                     CustomScoreboard.updateScoreboard(player, true);
                 } else {
-					CustomScoreboard.removeScoreboard(player);
+                    CustomScoreboard.removeScoreboard(player);
+                }
             }
         }, update_interval, update_interval);
         pha = Bukkit.getPluginManager().isPluginEnabled("PlaceholderAPI");
