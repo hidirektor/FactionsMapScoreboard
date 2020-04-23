@@ -1,0 +1,9 @@
+name: InfumiaFactionsMapScoreBoard
+main: com.infumia.t3sl4.facmap.facscoreboard.FacMap
+version: 22.04.2020
+author: [SYN_T3SL4]
+softdepend: [Factions,PlaceholderAPI,MVdWPlaceholderAPI,LegacyFactions]
+commands:
+  infmap:
+    aliases: [fs,fmap]
+
