@@ -1,5 +1,5 @@
 # FactionsMapScoreboard
-<p>Territory map scoreboard for 1.8.x -- 1.15.x minecraft factions servers.</p>
+<div style="text-align: center;"><p><strong>Territory map scoreboard for 1.8.x -- 1.15.x minecraft factions servers.</strong></p></div>
 
 <p>
   <br/>If you want to use this addon with FactionsUUID or LegacyFactions
